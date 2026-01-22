@@ -1,0 +1,32 @@
+{
+  "Comment": "Fluxo de Aprovação de Medicamentos - PharmaEfficiency",
+  "StartAt": "ValidarReceita",
+  "States": {
+    "ValidarReceita": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:123456789012:function:ValidarReceita",
+      "Next": "ReceitaAprovada?"
+    },
+    "ReceitaAprovada?": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.statusReceita",
+          "StringEquals": "APROVADA",
+          "Next": "ProcessarVenda"
+        }
+      ],
+      "Default": "NotificarErro"
+    },
+    "ProcessarVenda": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:123456789012:function:FinalizarVenda",
+      "End": true
+    },
+    "NotificarErro": {
+      "Type": "Pass",
+      "Result": "Erro: Receita Inválida ou Vencida",
+      "End": true
+    }
+  }
+}
