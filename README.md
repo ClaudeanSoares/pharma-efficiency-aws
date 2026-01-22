@@ -29,8 +29,8 @@ Implementei um barramento de eventos para gatilhos de reposição de estoque.
 ---
 
 ## 💭 Reflexão
-Como ensina a sabedoria de **São Josémaria Escrivá**: 
-> "Acaba as coisas. — Põe nelas a última pedra."
+ 
+> ""Senhor, aceita este trabalho das minhas mãos. Que cada linha de código e cada análise de dados sejam feitas para a Tua maior glória. Dá-me a paciência de Maria para aprender e a força de José para executar com maestria. Amém.""
 
 Este README é a última pedra deste projeto. Busquei a perfeição na organização para que o resultado técnico reflita o cuidado e a ordem que dediquei a cada etapa.
 
