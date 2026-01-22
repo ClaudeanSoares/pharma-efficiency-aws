@@ -2,7 +2,7 @@
 
 **Data:** 22 de Janeiro de 2026  
 **Empresa:** Abstergo Industries  
-**Responsável:** [Seu Nome]
+**Responsável:** Claudean Soares
 
 ## 1. Introdução
 Este relatório detalha a estratégia de otimização de infraestrutura da **Abstergo Industries**, focada na redução de custos operacionais através da migração para um modelo de processamento em nuvem. O objetivo central foi a substituição de sistemas de alto custo fixo por uma arquitetura **Serverless** (sem servidor), garantindo que a empresa pague apenas pelo processamento efetivamente utilizado durante a operação farmacêutica.
