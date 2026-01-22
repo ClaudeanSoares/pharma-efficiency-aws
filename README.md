@@ -35,4 +35,4 @@ Como ensina a sabedoria de **São Josémaria Escrivá**:
 Este README é a última pedra deste projeto. Busquei a perfeição na organização para que o resultado técnico reflita o cuidado e a ordem que dediquei a cada etapa.
 
 ---
-**Projeto desenvolvido durante a Santander Dev Week 2025, com o auxílio de IA Generativa para a estruturação do pipeline ETL e resolução de bugs de ambiente local.**
+**Projeto desenvolvido durante a Santander 2025 - Ciência de Dados com Python.**
